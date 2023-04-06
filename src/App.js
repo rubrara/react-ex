@@ -10,18 +10,24 @@ import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 import UserGreeting from "./components/UserGreeting";
 import ParentComponent from "./components/ParentComponent";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting /> {/* <ParentComponent />  */} {/* <EventBind />  */}{" "}
-      {/* <ClassClick /> */} {/* <FunctionClick />  */} {/* <Counter />  */}{" "}
-      {/* <Message />{" "}{" "} */}{" "}
-      {/* <Greet name="Diana" heroName="Wonder Woman" /> */}{" "}
-      {/* <Welcome name="Bruce" heroName="Batman" />{" "} */}{" "}
+      <NameList />
+      {/* <UserGreeting />  */}
+      {/* <ParentComponent />  */}
+      {/* <EventBind />  */}
+      {/* <ClassClick /> */}
+      {/* <FunctionClick />  */}
+      {/* <Counter />  */}
+      {/* <Message /> */}
+      {/* <Greet name="Diana" heroName="Wonder Woman" /> */}
+      {/* <Welcome name="Bruce" heroName="Batman" /> */}
       {/* <Hello name="Bruce" />
-                                                                                                                                                                  <Hello name="Clark" />
-                                                                                                                                                                  <Hello name="Diana" /> */}{" "}
+                                                                                                                                                                                          <Hello name="Clark" />
+                                                                                                                                                                                          <Hello name="Diana" /> */}{" "}
     </div>
   );
 }
